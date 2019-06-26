@@ -1,0 +1,52 @@
+$font-family-sans-serif: 'Montserrat',
+"Segoe UI",
+Roboto,
+"Helvetica Neue",
+Arial,
+"Noto Sans",
+sans-serif,
+"Apple Color Emoji",
+"Segoe UI Emoji",
+"Segoe UI Symbol",
+"Noto Color Emoji";
+
+$font-size-base: .875rem;
+$headings-font-family: "Montserrat-Bold";
+
+@font-face {
+    font-family: "RNSCamelia-Bold";
+    src: url("/fonts/RNSCamelia-Bold.eot");
+    src: url("/fonts/RNSCamelia-Bold.eot?#iefix") format("embedded-opentype"),
+        url("/fonts/RNSCamelia-Bold.woff") format("woff"),
+        url("/fonts/RNSCamelia-Bold.woff2") format("woff2"),
+        url("/fonts/RNSCamelia-Bold.otf") format("otf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+.display-1 {
+    font-family: 'RNSCamelia-Bold';
+}
+
+.display-2 {
+    font-family: 'RNSCamelia-Bold';
+}
+
+.display-3 {
+    font-family: 'RNSCamelia-Bold';
+}
+
+.display-4 {
+    font-family: 'RNSCamelia-Bold';
+}
+
+.active {
+    border-bottom: 2px solid #531083;
+}
+
+.btn-primary {
+    background-image: linear-gradient(to bottom right, #3155A4, #531083);
+    border: none;
+}
