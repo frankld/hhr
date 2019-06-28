@@ -3,12 +3,28 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://example.org/components/</loc>
+    <lastmod>2019-06-26T17:55:41-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/typography/</loc>
+    <lastmod>2019-06-26T17:55:41-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/ui-elements/</loc>
+    <lastmod>2019-06-26T17:55:41-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://example.org/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://example.org/</loc>
+    <lastmod>2019-06-26T17:55:41-04:00</lastmod>
     <priority>0</priority>
   </url>
   

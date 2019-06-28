@@ -1,0 +1,16 @@
+{{ define "main" }}
+<section class="container pt-5 pb-5">
+    <ul class="nav justify-content-center">
+
+        {{ $currentPage := .Page }}
+        {{ range .Site.Menus.main }}
+        <li class="nav-item">
+            <a class="nav-link d-inline {{ if eq $currentPage.RelPermalink .URL }}active{{ end }}" href="{{ .URL }}">{{ .Name}}</a>
+        </li>
+        {{ end }}
+    </ul>
+</section>
+<main id="content">
+    {{ .Content }}
+</main>
+{{ end }}

@@ -11,7 +11,14 @@ sans-serif,
 "Noto Color Emoji";
 
 $font-size-base: .875rem;
-$headings-font-family: "Montserrat-Bold";
+$headings-font-family: "Montserrat";
+$headings-font-weight: 600;
+$display1-size: 5.5rem;
+$display2-size: 5rem;
+$display3-size: 4rem;
+$display4-size: 3rem;
+$primary: #531083;
+$headings-color: #531083;
 
 @font-face {
     font-family: "RNSCamelia-Bold";
@@ -28,25 +35,43 @@ $headings-font-family: "Montserrat-Bold";
 
 .display-1 {
     font-family: 'RNSCamelia-Bold';
+    color: #531083;
 }
 
 .display-2 {
     font-family: 'RNSCamelia-Bold';
+    color: #531083;
 }
 
 .display-3 {
     font-family: 'RNSCamelia-Bold';
+    color: #531083;
 }
 
 .display-4 {
     font-family: 'RNSCamelia-Bold';
+    color: #531083;
+    line-height: 1.3;
 }
+
+
 
 .active {
     border-bottom: 2px solid #531083;
 }
 
 .btn-primary {
-    background-image: linear-gradient(to bottom right, #3155A4, #531083);
+    background-image: linear-gradient(to right, #3541BF, #7A1ABF);
     border: none;
+}
+
+#scrollnav {
+    width: 100%;
+    display: none;
+}
+
+.primary-header {
+    background-image: url('/img/hhr-bg.jpg');
+    background-position: center center;
+    background-size: cover;
 }
